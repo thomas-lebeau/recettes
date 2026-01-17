@@ -31,9 +31,9 @@ export function recipesIndexPlugin(): Plugin {
         const titleMatch = content.match(/^#\s+(.+)$/m);
         const title = titleMatch ? titleMatch[1] : file.replace(".md", "");
 
-        // Extract prep/cook time if present
+        // Extract prep/cook time if present (optional total is excluded)
         const metaMatch = content.match(
-          /\*\*Prep:\*\*\s+([^/]+)\/\s*\*\*Cook:\*\*\s+(.+)/
+          /\*\*Prep:\*\*\s+([^/]+)\/\s*\*\*Cook:\*\*\s+([^\n/]+)(?:\s*\/\s*\*\*Total:\*\*\s+[^\n]+)?/
         );
 
         const recipe: RecipeIndex = {

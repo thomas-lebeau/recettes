@@ -1,33 +1,31 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import recipesIndex from "virtual:recipes-index";
+
+interface Recipe {
+  id: string;
+  title: string;
+  prepTime?: string;
+  cookTime?: string;
+}
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1>My Recipes</h1>
+      <div className="recipes-list">
+        {recipesIndex.map((recipe: Recipe) => (
+          <div key={recipe.id} className="recipe-card">
+            <h2>{recipe.title}</h2>
+            {(recipe.prepTime || recipe.cookTime) && (
+              <p className="recipe-meta">
+                {recipe.prepTime && <span>Prep: {recipe.prepTime}</span>}
+                {recipe.prepTime && recipe.cookTime && <span> / </span>}
+                {recipe.cookTime && <span>Cook: {recipe.cookTime}</span>}
+              </p>
+            )}
+          </div>
+        ))}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }

@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Markdown from "react-markdown";
-import "github-markdown-css/github-markdown.css";
+import Loading from "./Loading";
+import Error from "./Error";
 
-function Recipe() {
+export default function Recipe() {
   const { slug } = useParams<{ slug: string }>();
   const [markdown, setMarkdown] = useState<string>("");
   const [loading, setLoading] = useState(true);
@@ -36,35 +37,19 @@ function Recipe() {
   }, [slug]);
 
   return (
-    <div
-      style={{
-        width: "100%",
-        maxWidth: "980px",
-        margin: "0 auto",
-        padding: "2rem 1rem",
-        textAlign: "left",
-      }}
-    >
-      <Link to="/" style={{ color: "#0969da", fontSize: "14px" }}>
-        ← Back to recipes
-      </Link>
-      {loading && (
-        <div style={{ textAlign: "center", padding: "2rem", color: "#666" }}>
-          Loading recipe...
-        </div>
-      )}
-      {error && (
-        <div style={{ textAlign: "center", padding: "2rem", color: "#d1242f" }}>
-          {error}
-        </div>
-      )}
+    <>
+      <nav className="nav">
+        <Link to="/">← Back to recipes</Link>
+      </nav>
+
+      {loading && <Loading />}
+      {error && <Error message={error} />}
+
       {!loading && !error && (
-        <article className="markdown-body" style={{ marginTop: "2rem", maxWidth: "none" }}>
+        <article className="markdown-body recipe-article">
           <Markdown>{markdown}</Markdown>
         </article>
       )}
-    </div>
+    </>
   );
 }
-
-export default Recipe;

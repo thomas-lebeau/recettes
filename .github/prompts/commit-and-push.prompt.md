@@ -14,6 +14,10 @@ Please commit the current changes to the GitHub repository with and appropriate 
 
 2. **Use Conventional Commits**: Format the commit message as `<type>: <description>`, where `type` is one of `feat`, `fix`, `docs`, `refactor`, `style`, `test`, or `chore`. The description should be a concise summary of the changes.
 
+   - Add a commit body with a bulleted list describing the specific changes made
+   - Leave a blank line between the commit subject and body
+   - Use bullet points starting with `-` for each change
+
 3. **Atomic Commits**: Ensure each commit represents a single logical change. If multiple unrelated changes were made, create separate commits for each.
 
 4. **Push Changes**: After committing, push the changes to the main branch of the GitHub repository.
@@ -29,3 +33,13 @@ Here are some examples of well-formed commit messages:
 - `style: format code with Prettier`
 - `test: add unit tests for recipe parser`
 - `chore: update dependencies to latest versions`
+
+Example with commit body:
+
+```
+feat: add GitHub Actions workflow for deployment
+
+- Add deploy.yml workflow for automated GitHub Pages deployment
+- Configure Vite base path for GitHub Pages
+- Set up build and deploy jobs with proper permissions
+```

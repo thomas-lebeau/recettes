@@ -13,10 +13,10 @@ Please commit the current changes to the GitHub repository with and appropriate 
 
 2. **Use Conventional Commits**: Format the commit message as `<type>: <description>`, where `type` is one of `feat`, `fix`, `docs`, `refactor`, `style`, `test`, or `chore`. The description should be a concise summary of the changes.
 
-   - Add a commit body with a bulleted list describing only the major changes (2-4 key points maximum)
-   - Focus on significant features, fixes, or architectural changes—skip minor details
-   - Leave a blank line between the commit subject and body
-   - Use bullet points starting with `-` for each major change
+   - Commit body is optional: include it only for substantial or multi-part changes (e.g., multiple files, major features, or fixes). For simple, single-file or trivial refactors, prefer a concise subject line only.
+   - If you include a body, list 2–4 major changes and avoid redundancy—do not repeat the subject or add minor details.
+   - Leave a blank line between the commit subject and body.
+   - Use `-` bullets for each distinct major change in the body.
 
 3. **Atomic Commits**: Ensure each commit represents a single logical change. If multiple unrelated changes were made, create separate commits for each.
 

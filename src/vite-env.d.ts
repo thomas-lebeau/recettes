@@ -11,3 +11,8 @@ declare module "virtual:recipes-index" {
   const recipes: Recipe[];
   export default recipes;
 }
+
+declare module "*.md?raw" {
+  const content: string;
+  export default content;
+}

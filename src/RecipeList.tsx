@@ -16,15 +16,6 @@ export default function RecipeList() {
         {recipesIndex.map((recipe: Recipe) => (
           <li key={recipe.id}>
             <Link to={`/${recipe.id}`}>{recipe.title}</Link>
-            {(recipe.prepTime || recipe.cookTime) && (
-              <>
-                {" ("}
-                {recipe.prepTime && <span>Prep: {recipe.prepTime}</span>}
-                {recipe.prepTime && recipe.cookTime && <span> / </span>}
-                {recipe.cookTime && <span>Cook: {recipe.cookTime}</span>}
-                {")"}
-              </>
-            )}
           </li>
         ))}
       </ul>

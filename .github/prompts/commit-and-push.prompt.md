@@ -1,7 +1,6 @@
 ---
 name: commitAndPush
 description: Commit and push changes to the GitHub repository
-argument-hint: commit message
 ---
 
 Please commit the current changes to the GitHub repository with and appropriate commit message based on the changes made. Follow these guidelines:
@@ -14,9 +13,10 @@ Please commit the current changes to the GitHub repository with and appropriate 
 
 2. **Use Conventional Commits**: Format the commit message as `<type>: <description>`, where `type` is one of `feat`, `fix`, `docs`, `refactor`, `style`, `test`, or `chore`. The description should be a concise summary of the changes.
 
-   - Add a commit body with a bulleted list describing the specific changes made
+   - Add a commit body with a bulleted list describing only the major changes (2-4 key points maximum)
+   - Focus on significant features, fixes, or architectural changes—skip minor details
    - Leave a blank line between the commit subject and body
-   - Use bullet points starting with `-` for each change
+   - Use bullet points starting with `-` for each major change
 
 3. **Atomic Commits**: Ensure each commit represents a single logical change. If multiple unrelated changes were made, create separate commits for each.
 

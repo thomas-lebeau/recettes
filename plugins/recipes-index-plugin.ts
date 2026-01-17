@@ -85,15 +85,6 @@ export function recipesIndexPlugin(): Plugin {
       }
     },
 
-    async generateBundle() {
-      // During build, also emit the JSON as a static asset in dist/
-      this.emitFile({
-        type: "asset",
-        fileName: "recipes-index.json",
-        source: JSON.stringify(recipesCache, null, 2),
-      });
-    },
-
     async handleHotUpdate({ file, server }) {
       // Regenerate index when recipe files change in dev mode
       if (file.includes("src/recipes") && file.endsWith(".md")) {

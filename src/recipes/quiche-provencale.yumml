@@ -1,0 +1,59 @@
+name: Quiche provençale
+prepTime: 30 minutes
+cookTime: 45 minutes
+totalTime: 1 hour 15 minutes
+servings: 6
+ingredients:
+  - quantity: 1
+    item: puff pastry
+
+  - quantity: 1
+    item: small pot of crème fraîche
+
+  - quantity: 2
+    item: onions
+
+  - quantity: 1
+    item: bell pepper
+
+  - quantity: 3
+    item: tomatoes
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: pepper
+
+  - quantity: 3
+    item: eggs
+
+  - quantity: 100
+    unit: g
+    item: gruyère cheese
+
+  - quantity: 1
+    item: can of tuna
+
+  - quantity: 10
+    item: pitted green olives
+
+  - quantity: "to taste"
+    item: Provençal herbs
+
+instructions:
+  - step: Unroll the puff pastry, keeping the parchment paper, and spread it in a tart pan
+
+  - step: Cut the 3 tomatoes into rounds. Arrange them nicely in the pan. Refrigerate
+
+  - step: In a bowl, cut the onion into small dice and the bell pepper into thin strips
+
+  - step: Add the tuna flakes, 3 eggs, crème fraîche, gruyère cheese, and olives cut into strips
+
+  - step: Season with salt and pepper. Add a bit of Provençal herbs. Mix well
+
+  - step: Spread the mixture over the tart. Bake for 45 minutes
+    temperature: 180C
+    duration: 45 minutes
+
+  - step: Serve slightly warm accompanied by a salad

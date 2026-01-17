@@ -1,0 +1,44 @@
+name: Poğaça
+ingredients:
+  - quantity: 1
+    unit: packet
+    item: yeast
+
+
+  - quantity: 4
+    unit: tbsp
+    item: sugar
+
+  - quantity: 1
+    unit: cup
+    item: milk
+
+  - quantity: 1
+    unit: cup
+    item: water
+
+  - quantity: 1
+    unit: cup
+    item: sunflower oil
+
+  - quantity: 1
+    unit: tbsp
+    item: salt
+
+  - quantity: 500
+    unit: g
+    item: flour
+
+  - quantity: 1
+    item: egg yolk
+
+instructions:
+  - step: Mix yeast and sugar
+
+  - step: Mix warm water with milk and add to the mixture
+
+  - step: Add oil, salt and flour
+
+  - step: Brush with egg yolk
+
+  - step: Bake until golden

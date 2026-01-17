@@ -1,0 +1,35 @@
+name: Curry de nouilles aux crevettes
+prepTime: 15 minutes
+cookTime: 10 minutes
+totalTime: 25 minutes
+servings: 4
+ingredients:
+  - quantity: 500
+    unit: g
+    item: peeled shrimp
+
+  - quantity: 500
+    unit: g
+    item: Chinese noodles
+
+  - quantity: 400
+    unit: ml
+    item: coconut milk
+
+  - quantity: 3
+    unit: tsp
+    item: curry powder
+
+  - quantity: "to taste"
+    item: soy sauce
+
+  - item: oil
+
+  - item: pepper
+
+instructions:
+  - step: Cook the noodles in a pot of boiling water following the package instructions
+
+  - step: Meanwhile, heat 3 tablespoons of oil in a wok. Sauté the shrimp until golden, then add soy sauce to taste and mix well. Add the coconut milk, curry, a little pepper and mix again
+
+  - step: When the noodles are cooked, drain them well and add them to the wok. Let cook for a few more minutes then serve immediately

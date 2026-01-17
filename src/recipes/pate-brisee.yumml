@@ -1,0 +1,23 @@
+name: Pâte Brisée
+ingredients:
+  - quantity: 125
+    unit: g
+    item: butter
+    notes: softened
+
+  - quantity: 250
+    unit: g
+    item: flour
+
+  - quantity: 1
+    unit: pinch
+    item: salt
+
+  - quantity: 0.5
+    unit: cup
+    item: water
+
+instructions:
+  - step: Mix the flour, salt and butter. Bind with water
+
+  - step: Don't forget to prick the pie crust with a fork before filling it

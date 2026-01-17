@@ -1,0 +1,32 @@
+name: Crêpes
+ingredients:
+  - quantity: 250
+    unit: g
+    item: flour
+
+  - quantity: 500
+    unit: ml
+    item: milk
+
+  - quantity: 4
+    item: eggs
+
+  - quantity: 50
+    unit: g
+    item: butter
+
+  - quantity: 2
+    unit: tbsp
+    item: sugar
+
+  - quantity: "1 pinch"
+    item: salt
+
+instructions:
+  - step: Put the flour in a bowl with the salt and sugar
+
+  - step: Make a well in the middle and pour in the eggs
+
+  - step: Start mixing gently. When the mixture becomes thick, add the cold milk little by little
+
+  - step: When all the milk is mixed in, the batter should be quite fluid. If it seems too thick, add a little more milk. Then add the cooled melted butter and mix well

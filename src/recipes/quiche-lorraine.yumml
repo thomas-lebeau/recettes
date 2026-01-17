@@ -1,0 +1,55 @@
+name: Quiche lorraine
+prepTime: 20 minutes
+cookTime: 40 minutes
+servings: 6
+ingredients:
+  - quantity: 1
+    item: shortcrust pastry
+    notes: homemade or store-bought
+
+  - quantity: 200
+    unit: g
+    item: smoked bacon lardons
+    notes: or diced pancetta
+
+  - quantity: 150
+    unit: g
+    item: grated gruyère
+    optional: true
+    notes: the original recipe doesn't include it
+
+  - quantity: 3
+    item: eggs
+
+  - quantity: 250
+    unit: ml
+    item: heavy cream
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: pepper
+
+  - quantity: "a pinch"
+    item: nutmeg
+    optional: true
+
+instructions:
+  - step: Preheat your oven
+    temperature: 180C
+
+  - step: Roll out the pastry in a buttered and floured tart pan. Prick the bottom with a fork to prevent it from puffing up during baking. Set aside
+
+  - step: In a pan over medium heat, sauté the bacon lardons until lightly golden. Drain them on paper towels to remove excess fat
+
+  - step: In a bowl, beat the eggs, then add the heavy cream. Season with salt, pepper, and optionally a pinch of grated nutmeg to flavor the mixture
+
+  - step: Distribute the bacon lardons on the tart base and sprinkle with grated gruyère
+
+  - step: Gently pour the egg and cream mixture over the lardons and cheese
+
+  - step: Bake the quiche in the preheated oven until golden and the filling is set
+    duration: 30 to 40 minutes
+
+  - step: Once cooked, remove the quiche from the oven and let it cool slightly before cutting into slices

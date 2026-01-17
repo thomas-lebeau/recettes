@@ -1,0 +1,42 @@
+name: Mercimek çorbası
+cookTime: 30 minutes
+ingredients:
+  - quantity: 1
+    item: onion
+
+  - quantity: 2
+    unit: tbsp
+    item: flour
+
+  - quantity: 1
+    unit: tbsp
+    item: tomato or pepper paste
+
+  - quantity: 1
+    item: carrot
+    notes: in small cubes
+
+  - quantity: 2
+    unit: cups
+    item: red lentils
+
+  - quantity: 2
+    unit: l
+    item: hot water
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: pepper
+
+  - quantity: "to taste"
+    item: cumin
+
+instructions:
+  - step: Cook for 30 minutes
+    duration: 30 minutes
+
+  - step: Mix with blender until smooth
+
+  - step: Season with salt, pepper, and cumin

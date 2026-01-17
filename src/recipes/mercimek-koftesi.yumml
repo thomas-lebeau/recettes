@@ -1,0 +1,60 @@
+name: Mercimek köftesi
+ingredients:
+  - quantity: 1
+    unit: cup
+    item: red lentils
+
+  - quantity: 1.5
+    unit: cups
+    item: fine bulgur
+
+  - quantity: 1
+    item: onion
+
+  - quantity: 1
+    item: bunch parsley
+
+  - quantity: 2-3
+    unit: tbsp
+    item: oil
+
+  - quantity: 1
+    item: bunch green onions
+
+  - quantity: 2
+    unit: tbsp
+    item: tomato paste
+    notes: you can use a mix of pepper and tomato paste
+
+  - quantity: 3
+    unit: cups
+    item: water
+    notes: add more if needed during kneading
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: cumin
+
+  - quantity: "to taste"
+    item: red pepper flakes
+
+  - quantity: "to taste"
+    item: black pepper
+
+instructions:
+  - step: Wash the lentils and place in a suitable pot, add 3 cups of water. Boil until completely soft
+
+  - step: When the water is absorbed, add the bulgur and let it rest for half an hour with the lid closed
+    duration: 30 minutes
+
+  - step: In a separate pan, sauté finely chopped onion in oil until lightly pink, add tomato paste and sauté for 1-2 more minutes, then remove from heat
+
+  - step: Add the sautéed onion mixture to the rested lentils and knead well when it reaches a temperature that won't burn your hands
+
+  - step: Add salt and spices to the well-mixed köfte mixture and knead again
+
+  - step: Finally, add finely chopped parsley and finely chopped green onions. Mix well
+
+  - step: After the köfte mixture cools a bit, knead all ingredients by hand and tear off egg-sized pieces. Shape the köftes and arrange them on lettuce or arugula leaves

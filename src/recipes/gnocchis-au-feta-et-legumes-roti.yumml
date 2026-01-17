@@ -1,0 +1,53 @@
+name: Gnocchis au feta et légumes rôtis
+ingredients:
+  - quantity: 500
+    unit: g
+    item: gnocchi
+
+  - quantity: 1
+    item: zucchini
+    notes: cut into half-rounds
+
+  - quantity: 1
+    item: red onion
+    notes: roughly chopped
+
+  - quantity: 4
+    item: garlic cloves
+    notes: finely chopped
+
+  - quantity: 2
+    unit: cups
+    item: cherry tomatoes
+
+  - quantity: 1
+    unit: tbsp
+    item: maple syrup
+
+  - quantity: 4-5
+    item: sprigs fresh thyme
+
+  - quantity: 250
+    unit: g
+    item: feta cheese
+
+  - item: cooking oil
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: pepper
+
+instructions:
+  - step: Preheat the oven
+    temperature: 450F
+
+  - step: In a large bowl, add the gnocchi, zucchini pieces, red onion, garlic, tomatoes, maple syrup, thyme, then pour a good drizzle of oil, a pinch of salt and pepper, and mix gently
+
+  - step: Transfer everything to a baking sheet lined with parchment paper, add the feta, another drizzle of oil and a pinch of pepper
+
+  - step: Bake
+    duration: 25 minutes
+
+  - step: Remove from the oven, then using a fork, crush the feta cheese, then mix everything gently. Adjust seasoning as needed and serve

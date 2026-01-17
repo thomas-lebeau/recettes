@@ -1,0 +1,36 @@
+name: Tarte aux pommes
+cookTime: 20 to 30 minutes
+ingredients:
+  - quantity: 2-3
+    item: apples
+
+  - quantity: 100-150
+    unit: g
+    item: sugar
+
+  - quantity: 3
+    unit: tbsp
+    item: flour
+
+  - quantity: 2
+    item: eggs
+
+  - quantity: 100
+    unit: g
+    item: liquid cream
+    optional: true
+
+  - quantity: "to taste"
+    item: ground cinnamon
+
+  - item: a little milk
+
+instructions:
+  - step: Spread the peeled apple slices on a pie crust
+
+  - step: Prepare a cream with the sugar, flour, eggs and milk and pour over the apples
+
+  - step: Sprinkle with cinnamon
+
+  - step: Bake for 20-30 minutes
+    duration: 20 to 30 minutes

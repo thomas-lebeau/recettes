@@ -1,0 +1,40 @@
+name: Riz Mexicain
+cookTime: 20 minutes
+ingredients:
+  - quantity: 1
+    item: onion
+
+  - item: bacon lardons
+
+  - quantity: 1
+    item: green bell pepper
+
+  - quantity: 1
+    item: yellow bell pepper
+
+  - item: tomatoes
+
+  - item: rice
+
+  - quantity: 1
+    item: chorizo
+
+  - item: olive oil
+
+  - quantity: "to taste"
+    item: salt
+
+  - quantity: "to taste"
+    item: pepper
+
+instructions:
+  - step: Sauté an onion in olive oil, then remove
+
+  - step: Sauté the bacon lardons, then remove
+
+  - step: Add the onions, lardons, salt and pepper and simmer on low heat
+
+  - step: Add water (2 volumes for 1 volume of rice). When boiling, add the rice and chorizo cut into rounds
+
+  - step: Cook for about 20 minutes
+    duration: 20 minutes

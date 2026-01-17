@@ -1,0 +1,40 @@
+name: Tarte au citron
+prepTime: 10 minutes
+cookTime: 30 minutes
+ingredients:
+  - quantity: 1
+    item: shortcrust pastry
+
+  - quantity: 200
+    unit: g
+    item: sugar
+
+  - quantity: 2
+    item: whole eggs
+
+  - quantity: 2
+    item: egg whites
+
+  - quantity: 75
+    unit: g
+    item: butter
+
+  - quantity: 2
+    item: lemons
+
+instructions:
+  - step: Preheat the oven
+    temperature: 180C
+
+  - step: Melt the butter
+
+  - step: Squeeze the lemons and grate the zest
+
+  - step: Beat 150g of sugar with the 2 whole eggs until the mixture whitens. Add the butter, zest and lemon juice
+
+  - step: Pour onto the pie crust and bake for 30 minutes
+    duration: 30 minutes
+
+  - step: When the tart is baked, beat the egg whites until stiff and gradually add the remaining sugar (50g) to obtain a firm meringue
+
+  - step: Spread the meringue on the baked tart and return to the oven to brown for a few minutes

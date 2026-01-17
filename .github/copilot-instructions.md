@@ -12,6 +12,7 @@
 ## Essential Architecture & Patterns
 
 ### Entry Point
+
 - **main.tsx** - Renders the React app into the root DOM element with React StrictMode for development warnings
 - **App.tsx** - Root component; currently a template demonstrating React hooks (useState) and Vite HMR capabilities
 - **index.css** - Global styles; **App.css** contains component-specific styling
@@ -30,6 +31,7 @@ npm run preview  # Preview production build locally
 ## TypeScript Configuration
 
 Two separate tsconfig files:
+
 - **tsconfig.app.json** - For application code (src/)
 - **tsconfig.node.json** - For build tooling (vite.config.ts, eslint.config.js)
 
@@ -38,6 +40,7 @@ Main **tsconfig.json** references both. When adding build-time code or modifying
 ## ESLint Rules & Conventions
 
 Current rules enforced:
+
 - ESLint recommended rules (js.configs.recommended)
 - TypeScript ESLint recommended (tseslint.configs.recommended)
 - React Hooks rules (reactHooks.configs.flat.recommended) - enforces hooks dependencies, exhaustive deps
@@ -69,6 +72,7 @@ When adding features, co-locate styles with components (e.g., Feature.tsx + Feat
 ## Common AI Agent Tasks
 
 ### Adding a New Component
+
 1. Create `.tsx` file in `src/` following React hook conventions
 2. Add corresponding `.css` file for styling
 3. Export as default: `export default ComponentName`
@@ -76,14 +80,31 @@ When adding features, co-locate styles with components (e.g., Feature.tsx + Feat
 5. Run `npm run lint` to validate
 
 ### Modifying Build Config
+
 1. Edit `vite.config.ts` if changing Vite plugins or output settings
 2. Update `tsconfig.node.json` if the config needs type checking
 3. Rebuild: `npm run build`
 
 ### Fixing Type Errors
+
 - Run `npm run build` to trigger `tsc -b` type checking
 - Review error messages; ESLint also catches some during `npm run lint`
 - Ensure imports, exports, and function signatures are fully typed
+
+## Commit Conventions
+
+Use **Conventional Commits** with simple, one-line messages. Commit small features at a time for focused, atomic changes:
+
+```
+feat: add recipe search component
+fix: resolve type error in App component
+docs: update README with setup instructions
+refactor: simplify useState logic in form
+```
+
+Format: `<type>: <description>` where type is `feat`, `fix`, `docs`, `refactor`, `style`, `test`, `chore`.
+
+**Approach**: Each commit should represent one logical, reviewable change. Break larger features into smaller commits if needed.
 
 ## Notes
 

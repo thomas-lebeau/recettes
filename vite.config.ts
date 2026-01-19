@@ -10,7 +10,7 @@ export default defineConfig({
     recipesIndexPlugin(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["vite.svg"],
+      includeAssets: ["icon.svg"],
       manifest: {
         name: "Recettes",
         short_name: "Recettes",
@@ -21,10 +21,16 @@ export default defineConfig({
         start_url: "/recettes/#/",
         icons: [
           {
-            src: "/recettes/vite.svg",
-            sizes: "any",
+            src: "/recettes/icon.svg",
+            sizes: "192x192 512x512",
             type: "image/svg+xml",
-            purpose: "any maskable",
+            purpose: "any",
+          },
+          {
+            src: "/recettes/icon.svg",
+            sizes: "512x512",
+            type: "image/svg+xml",
+            purpose: "maskable",
           },
         ],
       },
